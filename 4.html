@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy National Girlfriend Day</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffdde1, #fdd6f3);
+      font-family: 'Georgia', serif;
+      color: #4b2c3f;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+      overflow-x: hidden;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .container {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #d6336c;
+    }
+
+    p {
+      font-size: 1.3em;
+      margin: 20px 0;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 260px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      margin: 30px 0;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    .signature {
+      margin-top: 40px;
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    .heart {
+      font-size: 4em;
+      animation: pulse 2s infinite;
+      color: #ff4d6d;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    audio {
+      margin-top: 20px;
+    }
+
+    /* Floating Hearts */
+    .floating-hearts {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .floating-hearts .heart-float {
+      position: absolute;
+      bottom: -50px;
+      font-size: 2em;
+      opacity: 0.7;
+      animation: floatHeart 8s infinite ease-in;
+    }
+
+    .floating-hearts .heart-float:nth-child(1) {
+      left: 10%;
+      animation-delay: 0s;
+    }
+
+    .floating-hearts .heart-float:nth-child(2) {
+      left: 30%;
+      animation-delay: 2s;
+    }
+
+    .floating-hearts .heart-float:nth-child(3) {
+      left: 50%;
+      animation-delay: 4s;
+    }
+
+    .floating-hearts .heart-float:nth-child(4) {
+      left: 70%;
+      animation-delay: 1s;
+    }
+
+    .floating-hearts .heart-float:nth-child(5) {
+      left: 90%;
+      animation-delay: 3s;
+    }
+
+    @keyframes floatHeart {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.8;
+      }
+      50% {
+        transform: translateY(-200px) scale(1.2);
+        opacity: 0.4;
+      }
+      100% {
+        transform: translateY(-400px) scale(1);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Hearts -->
+  <div class="floating-hearts">
+    <div class="heart-float">💖</div>
+    <div class="heart-float">💗</div>
+    <div class="heart-float">💘</div>
+    <div class="heart-float">💕</div>
+    <div class="heart-float">💞</div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="heart">💖</div>
+    <h1>Happy National Girlfriend Day</h1>
+
+    <p>To my sweetest <strong>Khay</strong>,</p>
+
+    <p>
+      Today’s National Girlfriend Day, but honestly, every day with you matters to me.<br><br>
+      We’ve been through our share of ups and downs — misunderstandings, differences, and moments that tested us. It wasn’t always easy, but we still chose each other. We’re not pretending the past didn’t happen — we’ve just decided to leave it behind and start fresh. What we have now feels even more real. I love you — not just for the good times, but for being there through the hard ones too. Moving forward, it’s not just me or you — it’s both of us, giving our best, choosing each other, and building something stronger together.
+    </p>
+
+    <p>
+      Thank you for being there — for your hugs, your care, and your heart. I promise to love you, support you, and hold you close every single day.<br><br>
+      ကိုယ့်ကိုချစ်သေးတယ်မလား
+    </p>
+
+    <img src="photo_2025-08-01_20-39-21.jpg" alt="Couple Image">
+
+    <p class="signature">
+      Forever yours,<br>
+      <strong>Ko"</strong> 💌
+    </p>
+
+    <audio controls autoplay loop>
+      <source src="81e0f0b42adeceb86a3ceca7aa71b312.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+</body>
+</html>
